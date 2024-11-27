@@ -5,6 +5,7 @@
 ### Indice
 1. [Prerrequisitos](#id1)
 2. [Procedimiento Completo Para el Despliegue](#id2)
+3. [Cuestión](#id3)
 
 <div id="id1"></div>
 
@@ -130,6 +131,14 @@ Una vez comprobada la configuración de Nginx, se editará el archivo `hosts` pa
 
 Se comprobará que la aplicación funciona correctamente:
 ![Repositorio](./assets/images4/screenshot.36.jpg)
+
+<div id="id3"></div>
+
+## Cuestion
+Un servidor WSGI (Web Server Gateway Interface) actúa como intermediario entre aplicaciones web escritas en Python 
+y servidores web como Apache o Nginx, traduciendo solicitudes HTTP en datos procesables por Python y devolviendo 
+respuestas al cliente. Permite compatibilidad entre frameworks, facilita el despliegue en producción y mejora 
+el manejo de múltiples solicitudes concurrentes de manera eficiente
 
 Con esto se da por finalizada la práctica.
 
